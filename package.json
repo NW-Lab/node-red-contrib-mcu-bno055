@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/NextWorldLab/node-red-contrib-bno055/issues"
   },
-  "homepage": "https://github.com/NextWorldLab/node-red-contrib-bno055#readme"
+  "homepage": "https://github.com/NextWorldLab/node-red-contrib-bno055#readme",
+  "node-red" : {
+    "nodes": {
+        "mcu-bno055": "mcu-bno055.js"
+    }
+  }
 }
