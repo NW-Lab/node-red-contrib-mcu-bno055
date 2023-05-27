@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    function LowerCaseNode(config) {
+    function MCU_BNO055_Node(config) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
