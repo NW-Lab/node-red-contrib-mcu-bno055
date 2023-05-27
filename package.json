@@ -18,7 +18,7 @@
   "homepage": "https://github.com/NextWorldLab/node-red-contrib-bno055#readme",
   "node-red" : {
     "nodes": {
-        "nbo055": "nbo055.js"
+        "mcu-bno055": "mcu-bno055.js"
     }
   }
 }

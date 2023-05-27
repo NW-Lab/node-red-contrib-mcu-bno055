@@ -7,5 +7,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("mcu-bno055",MCU_BNO055);
+    RED.nodes.registerType("mcu-bno055",MCU_BNO055_Node);
 }
